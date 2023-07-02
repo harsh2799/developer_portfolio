@@ -1,2 +1,2 @@
-# DeveloepProfile
+# Developer Portfolio.
 Developer Profile Webpage.
