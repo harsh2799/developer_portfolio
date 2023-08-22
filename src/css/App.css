@@ -1,0 +1,59 @@
+:root {
+    --main-font: 'Montserrat', sans-serif;
+    --main-font-color: white;
+}
+
+html {
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1d25;
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+}
+
+.main-container {
+    padding: 10px;
+}
+
+.content-container {
+    position: relative;
+    margin-top: 10px;
+    height: calc(100vh - 100px); /* Subtract 100px for the top spacing */
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory; /* Enable snapping for each section */
+    scroll-behavior: smooth;
+}
+
+.content-container > div {
+    height: 100vh; /* Each section takes up the full viewport height */
+    scroll-snap-align: start; /* Snap to the start of each section */
+}
+
+/* Enable scrolling */
+.content-container::-webkit-scrollbar {
+    width: 0; /* Hide scrollbar */
+  }
+  
+  /* Optional: Handle browser-specific scrollbar styles */
+  /* Firefox */
+  .content-container {
+    scrollbar-width: none;
+  }
+  
+  /* Internet Explorer */
+  .content-container {
+    -ms-overflow-style: none;
+  }
+
+  .glassmorph-background {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+  }

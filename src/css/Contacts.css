@@ -1,0 +1,56 @@
+
+.contacts-container {
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px 0;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+.icons {
+    height: 40px;
+    width: 40px;
+    background-position: center;
+    background-size: cover;
+}
+
+.instagram {
+    background-image: url("../assets/icons/simple/instagram.png");
+    transition: all .25s ease-in;
+}
+
+.instagram:hover {
+    background-image: url("../assets/icons/color/instagram.png");
+}
+
+.linkedin {
+    background-image: url("../assets/icons/simple/linkedin.png");
+    transition: all .25s ease-in;
+}
+
+.linkedin:hover {
+    background-image: url("../assets/icons/color/linkedin.png");
+}
+
+.github {
+    background-image: url("../assets/icons/simple/github.png");
+    transition: all .25s ease-in;
+}
+
+.github:hover {
+    background-image: url("../assets/icons/color/github.png");
+}
+
+.gmail {
+    background-image: url("../assets/icons/simple/gmail.png");
+    transition: all .25s ease-in;
+}
+
+.gmail:hover {
+    background-image: url("../assets/icons/color/gmail.png");
+}

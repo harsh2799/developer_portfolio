@@ -1,0 +1,56 @@
+{
+    "navlinks": [
+        {
+            "title": "About",
+            "href": "#about",
+            "order": 1,
+            "component": "About"
+        },
+        {
+            "title": "Education",
+            "href": "#education",
+            "order": 2,
+            "component": "Education"
+        },
+        {
+            "title": "Experience",
+            "href": "#experience",
+            "order": 3,
+            "component": "Experience"
+        },
+        {
+            "title": "Skills",
+            "href": "#skills",
+            "order": 5,
+            "component": "Skills"
+        },
+        {
+            "title": "Projects",
+            "href": "#projects",
+            "order": 4,
+            "component": "Projects"
+        }
+    ],
+
+    "socialLinks": [
+        {
+            "title": "Linkedin",
+            "image": "linkedin",
+            "href": "linkedin"
+        },{
+            "title": "Gmail",
+            "image": "gmail",
+            "href": "gmail"
+        },
+        {
+            "title": "Instagram",
+            "image": "instagram",
+            "href": "instagram"
+        },
+        {
+            "title": "Github",
+            "image": "github",
+            "href": "github"
+        }
+    ]
+}
