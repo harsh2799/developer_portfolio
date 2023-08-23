@@ -8,13 +8,15 @@ import Skills from "./components/Skills"
 import Projects from "./components/Projects"
 import Navbar from './components/Navbar'
 import data from "./assets/data.json"
+import NavbarNew from './components/NavbarNew'
 
 
 const App = () => {
   
   return (
     <div className='main-container'>
-        <Navbar />
+        {/* <Navbar /> */}
+        <NavbarNew />
         <Contacts />
         
         <div className='content-container'>

@@ -1,10 +1,11 @@
 import React from 'react'
 
-const Navlink = ({title, href}) => {
+const Navlink = ({title, href, hideNavbar}) => {
   return (
-    <li className='navlink expand'>
-        <a href={href}>{title}</a>
-    </li>
+    // className='navlink expand'
+    
+        <a className="expand" href={href} onClick={hideNavbar}>{title}</a>
+    
   )
 }
 

@@ -9,6 +9,7 @@
     top: 50%;
     left: 10px;
     transform: translateY(-50%);
+    transition: all .5s ease;
     z-index: 999;
 }
 
@@ -53,4 +54,10 @@
 
 .gmail:hover {
     background-image: url("../assets/icons/color/gmail.png");
+}
+
+@media only screen and (max-width: 1024px) {
+    .contacts-container { 
+        transform: translateX(-500px);
+    }
 }
