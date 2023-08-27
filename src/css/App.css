@@ -1,6 +1,8 @@
 :root {
     --main-font: 'Montserrat', sans-serif;
     --main-font-color: white;
+    --main-element-color: rgb(94, 234, 212);
+    --main-background-color: #1c1d25;
 }
 
 html {
@@ -11,9 +13,12 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #1c1d25;
     font-family: var(--main-font);
     color: var(--main-font-color);
+}
+
+body {
+  background-color: var(--main-background-color);
 }
 
 .content-container {

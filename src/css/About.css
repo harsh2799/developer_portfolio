@@ -25,13 +25,14 @@
 .title {
     font-size: 36px;
     background-color: transparent;
+    color: rgb(94, 234, 212);
 }
 
 .divider {
     margin: 10px 0;
     height: 2px;
     width: 70%;
-    background-color: antiquewhite;
+    background-color: rgb(94, 234, 212);
     opacity: .5;
 }
 
@@ -387,5 +388,12 @@
     }
     100% {
       transform: skew(4deg);
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .title {
+        font-size: 18px;
     }
   }

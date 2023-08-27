@@ -14,7 +14,7 @@ const About = () => {
                 I am currently pursuing a Master's degree in Applied Computer Science at Concordia University. I have two years of experience as a software developer, with a strong foundation in various programming languages and software development methodologies. My expertise includes developing software applications, debugging and troubleshooting code, and working in a team environment. I am also well-versed in various software development tools and technologies. I am eager to continue growing my skills and contributing to the success of technology-driven companies.
                 </p>
             </div>
-            <a className="explore" href="#education">
+            <a className="explore" href="#experience">
                 <span className="text">Explore More</span>
                 <svg id="more-arrows">
                     <polygon className="arrow-top" points="37.6,27.9 1.8,1.3 3.3,0 37.6,25.3 71.9,0 73.7,1.3 "/>
