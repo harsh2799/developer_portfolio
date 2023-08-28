@@ -20,7 +20,7 @@ const NavbarNew = () => {
 
     const navlinks = data.navlinks;
     const sl = data.socialLinks;
-    const logo = "../../src/assets/icons/logos/logo.png";
+    const logo = "src/assets/icons/logos/logo.png";
     return (<header className='glassmorph-background'>
         <div>
             <img className='logo' src={logo} />
