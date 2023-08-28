@@ -2,7 +2,7 @@ import React from 'react'
 import {useAnimation, motion} from 'framer-motion'
 
 const Skill = ({name, logo, skills}) => {
-    const path = "src/assets/icons/logos/"
+    const path = "./src/assets/icons/logos/"
     return (
     <motion.div 
         className='category'
