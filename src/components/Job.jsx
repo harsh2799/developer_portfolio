@@ -4,7 +4,7 @@ import {useInView} from 'react-intersection-observer'
 
 const Job = ({id, company_name, position, time, skills, description, logo}) => {
   
-  const logoPath = "../src/assets/icons/";
+  const logoPath = "../src/assets/icons/logos/";
   
   return (
       <motion.div 
