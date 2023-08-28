@@ -13,8 +13,8 @@ const Skill = ({name, logo, skills}) => {
         <h3 className='category-title'>{name}</h3>
         <div className='category-skills'>
             {
-                skills.map((skill) => {
-                    return <span className='skill'>{skill}</span>
+                skills.map((skill,index) => {
+                    return <span key={index} className='skill'>{skill}</span>
                 })
             }
         </div>

@@ -5,7 +5,6 @@ import Contact from './Contact'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import "../css/NavbarNew.css"
 import "../css/Navbar.css"
-import { logo } from "../../public/logo.png"
 
 const NavbarNew = () => {
 
@@ -18,7 +17,7 @@ const NavbarNew = () => {
     const hideNavbar = () => {
         navRef.current.classList.remove("responsive_nav");
     }
-
+    const logo = "developer_portfolio/src/assets/icons/logos/logo.png"
     const navlinks = data.navlinks;
     const sl = data.socialLinks;
     return (<header className='glassmorph-background'>
