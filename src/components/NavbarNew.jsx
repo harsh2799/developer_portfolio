@@ -5,6 +5,7 @@ import Contact from './Contact'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import "../css/NavbarNew.css"
 import "../css/Navbar.css"
+import { logo } from "../../public/logo.png"
 
 const NavbarNew = () => {
 
@@ -20,7 +21,6 @@ const NavbarNew = () => {
 
     const navlinks = data.navlinks;
     const sl = data.socialLinks;
-    const logo = "developer_portfolio/src/assets/icons/logos/logo.png";
     return (<header className='glassmorph-background'>
         <div>
             <img className='logo' src={logo} />
