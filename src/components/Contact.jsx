@@ -1,10 +1,18 @@
 import {React, useState} from 'react'
 
 const Contact = ({href, title, image}) => {
-    const classes = `${image} icons`
+
+    if (title == 'Gmail') return (
+        <a href={"mailto:" + href} target='_blank'>
+            <div title={title} className={image + ' icons'}>
+            </div>
+        </a>
+    )
+
+
     return (
-        <a href={href}>
-            <div title={title} className={classes}>
+        <a href={href} target='_blank' >
+            <div title={title} className={image + ' icons'}>
             </div>
         </a>
     )

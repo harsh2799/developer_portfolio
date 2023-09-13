@@ -2,7 +2,7 @@ import {React, useRef} from 'react'
 import data from "../assets/data.json"
 import Navlink from "./Navlink"
 import Contact from './Contact'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import { FaBars, FaTimes, FaDownload } from 'react-icons/fa'
 import "../css/NavbarNew.css"
 import "../css/Navbar.css"
 
@@ -30,6 +30,7 @@ const NavbarNew = () => {
                     return <Navlink key={navlink.order} {...navlink} hideNavbar={hideNavbar}/>
                 })
             }
+            <a className="expand" href="src\assets\files\Harsh_Mishra_Resume.pdf" download="Harsh_Mishra_Resume.pdf">Resume <FaDownload /></a>
             <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                 <FaTimes />
             </button>

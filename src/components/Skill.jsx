@@ -9,12 +9,15 @@ const Skill = ({name, logo, skills}) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{delay: .25, ease: "easeIn"}}>
-        <img src={path + logo} className='category-logo' alt={name}/>
+        {/* <img src={path + logo} className='category-logo' alt={name}/> */}
         <h3 className='category-title'>{name}</h3>
         <div className='category-skills'>
             {
                 skills.map((skill,index) => {
-                    return <span key={index} className='skill'>{skill}</span>
+                    return <div  key={index} className='skill-icon'>
+                        <img src={path + skill.icon} alt={skill.name}/>
+                        <span className='skill-tooltip'>{skill.name}</span>
+                    </div>
                 })
             }
         </div>
