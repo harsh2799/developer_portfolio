@@ -6,6 +6,7 @@ import Experience from "./components/Experience"
 import Skills from "./components/Skills"
 import data from "./assets/data.json"
 import NavbarNew from './components/NavbarNew'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
           <About />
           <Experience />
           <Skills />
+          <Footer />
         </div>
         
     </div>

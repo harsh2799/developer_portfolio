@@ -54,3 +54,9 @@ body {
   .content-container {
     -ms-overflow-style: none;
   }
+
+ .footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+ }

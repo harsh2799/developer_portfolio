@@ -17,7 +17,7 @@ const NavbarNew = () => {
     const hideNavbar = () => {
         navRef.current.classList.remove("responsive_nav");
     }
-    const logo = "developer_portfolio/src/assets/icons/logos/logo.png"
+    const logo = "/assets/icons/logos/logo-green.svg"
     const navlinks = data.navlinks;
     const sl = data.socialLinks;
     return (<header className='glassmorph-background'>
@@ -30,7 +30,7 @@ const NavbarNew = () => {
                     return <Navlink key={navlink.order} {...navlink} hideNavbar={hideNavbar}/>
                 })
             }
-            <a className="expand" href="src\assets\files\Harsh_Mishra_Resume.pdf" download="Harsh_Mishra_Resume.pdf">Resume <FaDownload /></a>
+            <a className="expand" href="developer_portfolio/src/assets/files/Harsh_Mishra_Resume.pdf" target="_blank">Resume</a>
             <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                 <FaTimes />
             </button>

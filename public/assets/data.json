@@ -1,0 +1,138 @@
+{
+    "navlinks": [
+        {
+            "title": "About",
+            "href": "#about",
+            "order": 1,
+            "component": "About"
+        },
+        {
+            "title": "Experience",
+            "href": "#experience",
+            "order": 2,
+            "component": "Experience"
+        },
+        {
+            "title": "Skills/Projects",
+            "href": "#skills",
+            "order": 3,
+            "component": "Skills"
+        }
+    ],
+
+    "socialLinks": [
+        {
+            "title": "Linkedin",
+            "image": "linkedin",
+            "href": "https://www.linkedin.com/in/harshmishra27/"
+        },{
+            "title": "Gmail",
+            "image": "gmail",
+            "href": "mishraharsh27@gmail.com"
+        },
+        {
+            "title": "Instagram",
+            "image": "instagram",
+            "href": "https://www.instagram.com/harsh_2799/"
+        },
+        {
+            "title": "Github",
+            "image": "github",
+            "href": "https://github.com/harsh2799"
+        }
+    ],
+    "experience": [
+        {
+            "id": 3,
+            "company_name": "turabit solutions LLC",
+            "position": "Software Developer",
+            "time": "June 2020 - August 2023",
+            "skills": ["ELK Stack", "Apache Kafka", "Docker", "Flask-Restful", "Microservices", "System Architecture", "System Design", "Git", "ServiceNow", "Socket IO"],
+            "description": "Developed a centeralized logging system with Apache Kafka, Python and ELK stack for microservice architecture, a live chat feature for chatbot with Python and Socket IO, and a smart email service with ServiceNow and NLP, among other solutions.",
+            "logo": "turabit-logo.png"
+        },
+        {
+            "id": 2,
+            "company_name": "turabit solution LLC",
+            "position": "Software Developer Intern",
+            "time": "December 2019 - April 2020",
+            "skills": ["Python", "Flask", "HTML", "Bootstrap", "Javascript", "Jquery", "Angularjs", "Mysql", "SocketIO"],
+            "description": "Developed a dashboard for human agents to manage multiple client requests with ease. Handling multiple requests from a single page, providing a streamlined and efficient workflow.",
+            "logo": "turabit-logo.png"
+        },
+        {
+            "id": 1,
+            "company_name": "Royal Technosoft",
+            "position": "Web Developer Intern",
+            "time": "June 2019 - August 2019",
+            "skills": ["HTML", "CSS", "Bootstrap", "PHP", "Postgres", "Team Work"],
+            "description": "Worked on ERP for royal technosoft to allow prospective clients to enroll to the Organization and managing the organization from admin page.",
+            "logo": "royal-logo.png"
+        }
+    ],
+    "skillsets" : [
+        {
+            "name": "Backend Development",
+            "logo": "backend.png",
+            "skills": [
+                {"name": "Python", "icon": "python.png"},
+                {"name":"Java", "icon": "java.png"},
+                {"name": "Flask","icon": "flask.png"},
+                {"name": "Docker","icon": "docker.png"}, 
+                {"name": "ServiceNow","icon": "servicenow.png"}, 
+                {"name": "Apache Kafka","icon": "kafka.png"}, 
+                {"name": "ELK Stack","icon": "elasticsearch.png"}, 
+                {"name": "Socket IO","icon": "socketio.png"}
+            ],
+            "id": 0
+        },
+        {
+            "name": "Database", 
+            "logo": "database.png",
+            "skills": [
+                {"name": "MySQL", "icon": "mysql.png"}, 
+                {"name": "Postgres", "icon": "postgres.png"}, 
+                {"name": "MongoDB", "icon": "mongodb.png"}, 
+                {"name": "Firebase", "icon": "firebase.png"}
+            ],
+            "id": 1
+        },
+        {
+            "name": "Frontend Development",
+            "logo": "frontend.png",
+            "skills": [
+                {"name": "HTML", "icon": "html.png"}, 
+                {"name": "CSS", "icon": "css.png"}, 
+                {"name": "Bootstrap", "icon": "bootstrap.png"},
+                {"name": "Javascript", "icon": "javascript.png"}, 
+                {"name": "JQuery", "icon": "jquery.png"}, 
+                {"name": "React", "icon": "react.png"}, 
+                {"name": "Angularjs", "icon": "angular.png"}
+            ],
+            "id": 2
+        }
+    ],
+    "projects" : [
+        {
+            "id": 1,
+            "title": "NBCVizualize",
+            "github_link": "https://github.com/harsh2799/ConUHacksNBCVisualize",
+            "page_link": "",
+            "image_source": ""
+        },
+        {
+            "id": 2,
+            "title": "Self Insure",
+            "github_link": "",
+            "page_link": "",
+            "image_source": ""
+        },
+        {
+            "id": 3,
+            "title": "Portfolio",
+            "github_link": "https://github.com/harsh2799/developer_portfolio",
+            "page_link": "",
+            "image_source": ""
+        }
+    ]
+}

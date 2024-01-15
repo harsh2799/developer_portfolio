@@ -143,6 +143,10 @@
 	.content-logo {
         display: none;
     }
+
+    .timeline {
+        margin-top: 150px;
+    }
     
     .timeline::after {
 		left: 31px;

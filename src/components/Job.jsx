@@ -2,9 +2,10 @@ import React from 'react'
 import {useAnimation, motion} from 'framer-motion'
 import {useInView} from 'react-intersection-observer'
 
+
 const Job = ({id, company_name, position, time, skills, description, logo}) => {
   
-  const logoPath = "developer_portfolio/src/assets/icons/logos/";
+  const logoPath = "/assets/icons/logos/";
   
   return (
       <motion.div 
